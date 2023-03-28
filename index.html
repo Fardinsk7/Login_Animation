@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <center>
+    <h1>Register</h1>
+    <button onclick ="document.getElementById('show').style.display='flex'">Login</button>
+  </center>
+  <div id="show" class="main_bg background">
+    <div class="contentBx">
+      <span class="close" onclick ="document.getElementById('show').style.display='none'" >&times;</span>
+      <form>
+        <h3>Login</h3>
+
+        <div class="inputbx">
+          <span>Email:<input type="text" placeholder="Enter Email"/></span>
+        </div>
+        <div class="inputbx">
+          <span>Password:<input type="password" placeholder="Enter Password"/></span>
+        </div>
+        <div class="rememberme">
+          <label><input type="checkbox"/><span class="remembertext">Remember me</span></label>
+        </div>
+        <div class="loginbtn">
+          <input type="submit" value="Login"/>
+        </div>
+        <p>Don't have an account <a href="#">Create account</a></p>
+      </form>
+
+
+    </div>
+  </div>
+</body>
+</html>

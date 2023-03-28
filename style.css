@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+center > h1{
+  margin: 25px 0 0 0;
+}
+center> button{
+  background-color: rgb(77, 255, 0);
+  color: black;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  width: 10%;
+  margin: 25px 0px;
+  cursor: pointer;
+}
+center> button:hover{
+  background-color: rgb(23, 221, 23);
+}
+
+.main_bg{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 1;
+  
+}
+.main_bg .contentBx{
+  height: 600px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0  10px 1px black;
+  background-color: white;
+  animation: animate 0.6s;
+}
+
+@keyframes animate {
+  from{
+    transform: scale(0)
+  }
+  to{
+    transfrom: scale(1);
+  }
+}
+.background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.main_bg .contentBx h3{
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color: rgb(77, 255, 0);
+  margin: 25px auto;
+}
+
+.main_bg .contentBx .inputbx{
+  margin: 15px 0;
+}
+.main_bg .contentBx .inputbx input{
+  padding: 3px 5px;
+  border: none;
+  margin: 0 7px;
+  border-radius: 3px;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 1px solid black;
+}
+.main_bg .contentBx .rememberme{
+  font-size: 12px;
+  margin: ;
+}
+.main_bg .contentBx .rememberme input[type=checkbox]{
+  margin:0;
+  cursor: pointer;
+}
+.remembertext{
+  margin: 25px 0;
+  
+}
+.main_bg .contentBx .loginbtn{
+  display: flex;
+  justify-content: center;
+}
+.main_bg .contentBx .loginbtn input[type=submit]{
+  background-color: rgb(77, 255, 0);
+  border: none;
+  width: 150px;
+  height: 35px;
+  margin: 15px;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.main_bg .contentBx .loginbtn input[type=submit]:hover{
+  background-color: rgb(23, 221, 23);
+}
+
+.main_bg .contentBx p{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.main_bg .contentBx .close{
+  position: relative;
+  bottom:45%;
+  left:75%;
+  cursor: pointer;
+  font-size: 25px;
+  color: red;
+}
+
+@media screen and (max-width: 300px) {
+  .main_bg .contentBx {
+    height: 400px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 1px black;
+    background-color: white;
+    animation: animate 0.6s;
+}
+.main_bg .contentBx h3{
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: rgb(77, 255, 0);
+  margin: 25px auto;
+}
+
+.main_bg .contentBx .close{
+  position: relative;
+  bottom:45%;
+  left:90%;
+  cursor: pointer;
+  font-size: 25px;
+  color: red;
+}
+.main_bg .contentBx p{
+  font-size: 10px;
+  
+}
+
+.main_bg .contentBx .inputbx{
+  font-size: 12px;
+}
+.main_bg .contentBx .inputbx input{
+  font-size: 12px;
+}
+.main_bg .contentBx .loginbtn input[type=submit]{
+  font-size: 15px;
+}
+center > button{
+  width: 90px;
+}
+
+}
+@media screen and (max-width: 300px) {
+  .main_bg .contentBx {
+    height: 500px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 1px black;
+    background-color: white;
+    animation: animate 0.6s;
+}
+.main_bg .contentBx h3{
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: rgb(77, 255, 0);
+  margin: 25px auto;
+}
+
+.main_bg .contentBx .close{
+  position: relative;
+  bottom:45%;
+  left:80%;
+  cursor: pointer;
+  font-size: 25px;
+  color: red;
+}
+.main_bg .contentBx p{
+  font-size: 10px;
+  
+}
+
+.main_bg .contentBx .inputbx{
+  font-size: 12px;
+}
+.main_bg .contentBx .inputbx input{
+  font-size: 12px;
+}
+.main_bg .contentBx .loginbtn input[type=submit]{
+  font-size: 15px;
+}
+center > button{
+  width: 90px;
+}
+
+}
